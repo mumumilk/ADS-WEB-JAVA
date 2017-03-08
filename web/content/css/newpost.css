@@ -1,0 +1,301 @@
+html {
+    margin:0px;
+    /*background: #ac2925;*/
+    /*background: -webkit-linear-gradient(darkgrey, #ac2925);*/
+    /*background: -o-linear-gradient(darkgrey, #ac2925);*/
+    /*background: -moz-linear-gradient(darkgrey, #ac2925);*/
+    /*background: linear-gradient(darkgrey, #ac2925);*/
+    background: #cc0000; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cc0000 45%, #b21c1c 73%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #cc0000 45%,#b21c1c 73%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #cc0000 45%,#b21c1c 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#b21c1c',GradientType=0 ); /* IE6-9 */
+    height: 100%;
+}
+
+
+
+body {
+    margin: 0px;
+
+}
+
+table {
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+    display:table;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.navbar {
+    min-height: 60px;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    position: fixed;
+    z-index: 10;
+    display: block;
+    position: relative;
+}
+
+.navbar-name{
+    display: inline-block;
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "Segoe UI";
+    margin-top: 17px;
+    margin-right: 0;
+    text-decoration: none;
+}
+
+.navbar-img{
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    display: inline;
+    float: left;
+}
+
+.register-form {
+    width: 400px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.register-form-form{
+    padding-bottom: 10px;
+    margin-left: 10%;
+}
+
+.register-form-img{
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+    margin-left: 800px;
+}
+
+.register-tip {
+    height: 60px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    background-color: whitesmoke;
+    border-bottom: 2px solid #9d9d9d;
+}
+
+.register-name {
+    display: inline-block;
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "Segoe UI";
+    margin-top: 17px;
+    margin-left: 30%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.register-img{
+    float: left;
+    background: #cc0000; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cc0000 45%, #b21c1c 73%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #cc0000 45%,#b21c1c 73%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #cc0000 45%,#b21c1c 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#b21c1c',GradientType=0 ); /* IE6-9 */
+    width: 34px;
+    height: 35px;
+    margin-right: 0%;
+    margin-left: 30px;
+    margin-top: 8px;
+    border-radius: 4px 0px 0px 4px;
+    padding: 4px;
+}
+
+.register-input{
+    width: 75%;
+    background-color: whitesmoke;
+    color: #5e5e5e;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    cursor: text;
+    float: left;
+    border: 2px solid #ac2925;
+}
+
+.register-input-textarea {
+    height: 200px;
+    text-align: left;
+    width: 75%;
+    background-color: whitesmoke;
+    color: #5e5e5e;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    cursor: text;
+    float: left;
+    border: 2px solid #ac2925;
+}
+
+.register-input-false{
+    margin-bottom: -20px;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    text-align: center;
+    color: red;
+}
+
+.btn-submit{
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#b21c1c',GradientType=0 ); /* IE6-9 */
+    border-radius: 1px;
+    padding: 5px;
+    font-family: "Segoe UI";
+    margin-top: 30px;
+    width: 50%;
+    margin-right: 20%;
+    margin-left: 20%;
+    border: none;
+    cursor: pointer;
+}
+
+.right{
+    float: right;
+}
+
+.sp-session{
+    float: right;
+    width: 250px;
+    height: 60px;
+}
+
+.div-session{
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.form-session{
+    float: right;
+}
+
+.img-session{
+    float: right;
+    height: 30px;
+}
+
+
+
+.btn-submit:hover{
+    background-color: #d5d5d5;
+}
+
+.table-cores {
+    width: 100%;
+    margin: 0;
+    paddin: 0;
+    height: 6px;
+}
+
+.iv .mun {
+    width: 11%;
+    background-color: #a39382;
+    border-color: #a39382;
+    padding: 0;
+    vertical-align: inherit;
+}
+
+.iv .pla {
+    width: 11%;
+    background-color: #8986ca;
+    border-color: #8986ca;
+    padding: 0;
+    vertical-align: inherit;
+}
+
+.iv .arr {
+    width: 11%;
+    background-color: #26d07c;
+    border-color: #26d07c;
+    padding: 0;
+    vertical-align: inherit;
+}
+
+.iv .ate{
+    width: 11%;
+    background-color: #97999b;
+    border-color: #97999b;
+    padding: 0;
+    vertical-align: inherit;
+}
+
+.iv .com {
+    width: 11%;
+    background-color: #df4661;
+    border-color: #df4661;
+    padding: 0;
+    vertical-align: inherit;
+}
+
+.iv .pes {
+    width: 11%;
+    background-color: #009cde;
+    border-color: #009cde;
+    padding: 0;
+    vertical-align: inherit;
+}
+
+.iv .sau {
+    width: 11%;
+    background-color: #a9c47f;
+    border-color: #a9c47f;
+    padding: 0;
+    vertical-align: inherit;
+}
+
+.iv .edu {
+    width: 11%;
+    background-color: #ddf100;
+    border-color: #ffd100;
+    padding: 0;
+    vertical-align: inherit;
+}
+
+.iv .lei {
+    width: 11%;
+    background-color: #ed8b00;
+    border-color: #ed8b00;
+    padding: 0;
+    vertical-align: inherit;
+}
+
+.register-a {
+    width: 100%;
+    float: left;
+}
+
+@media only screen and (max-width: 400px) {
+    .post-form {
+        width: auto;
+    }
+}

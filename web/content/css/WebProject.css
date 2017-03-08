@@ -1,0 +1,345 @@
+body{
+    margin: 0;
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+#loadingbar {
+    background: red;
+}
+
+#loadingbar dd, #loadingbar dt {
+    -moz-box-shadow: red 1px 0 6px 1px;
+    -ms-box-shadow: red 1px 0 6px 1px;
+    -webkit-box-shadow: red 1px 0 6px 1px;
+    box-shadow: red 1px 0 6px 1px;
+}
+
+.navbar {
+    min-height: 60px;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    position: fixed;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar div{
+    display:inline-block;
+}
+
+.brand{
+    width: auto;
+    height: 60px;
+}
+
+.navbar-brand-text{
+    color: #000000;
+    font-size: 20px;
+    font-family: "Segoe UI";
+    text-decoration: none;
+    position: relative;
+    margin-top: 15px;
+}
+
+.navbar-brand-img{
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.entrance{
+    width: 60%;
+    height: 60px;
+}
+
+.entrance-login{
+    height: 25px;
+    margin-top: 18px;
+    width: 100%;
+}
+
+.entrance-login-enter{
+    display: inline;
+    width: 60%;
+}
+
+.login-enter-text{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: "Segoe UI";
+    margin-left: 10px;
+}
+
+.login-enter-input{
+    width: 30%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px 5px;
+    /*height: 10px;*/
+    border: 1px solid #9a9c9e;
+    border-radius: 4px;
+    margin-left: 1%;
+}
+
+.login-enter-input-false{
+    border: 1px solid red;
+}
+
+.entrance-img{
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header{
+    background-image: url(../imagem/background_img_header.jpeg);
+    height: 460px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    width: 100%;
+    background-size: cover;
+}
+
+.header-img{
+    margin: auto;
+    display: block;
+}
+
+.sub-navbar{
+    width: 100%;
+    height: 40px;
+}
+
+.sub-navbar-links{
+    margin-top: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 20px;
+}
+
+.sub-navbar-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: "Segoe UI";
+    color: #9a9c9e;
+    text-decoration: none;
+}
+
+.sub-navbar-img{
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 20px;
+}
+
+.sub-navbar-follow{
+    border: 1px solid brown;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: 14px;
+    color: brown;
+    font-family: "Segoe UI";
+}
+
+#sub-navbar-hr{
+    margin-right: 10%;
+    margin-left: 10%;
+    border: none;
+    height: 1px;
+    background-color: #9a9c9e;
+}
+
+#sub-sub-navbar-hr{
+    margin-right: 10%;
+    margin-left: 10%;
+    border: none;
+    height: 1px;
+    background-color: #e3e5e8;
+}
+
+.posts{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.posts ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    max-width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.posts ul li{
+    display: inline-block;
+}
+
+.post{
+    margin-left: 12px;
+    margin-right: 16px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.post-img{
+    height: 160px;
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px inset #9a9c9e;
+}
+
+.post-text{
+    max-height: 20px;
+}
+
+/*.post-text h2{*/
+    /*width: 300px;*/
+    /*height: 50px;*/
+    /*!*margin-top: -55px;*!*/
+    /*display: block;*/
+    /*overflow:hidden;*/
+    /*word-wrap: break-word;*/
+    /*paddging-left: 0px;*/
+    /*padding-right: 0px;*/
+    /*padding-top: 5px;*/
+    /*font-family: "KievitPro";*/
+    /*border-bottom: 1px solid #9a9c9e;*/
+/*}*/
+
+.post-text h4{
+    margin: 0;
+    margin-top: 2px;
+    font-family: "KievitPro";
+    word-wrap: break-word;
+    overflow: hidden;
+    height: 200px;
+}
+
+.post-title{
+    border: none;
+    width: 100%;
+    height: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    word-wrap: break-word;
+    margin: 0;
+    font-family: "KievitPro";
+    font-size: x-large;
+    cursor: pointer;
+    border-bottom: 1px solid cornflowerblue;
+}
+
+.post-title:hover{
+    cursor: hand;
+}
+
+.exit-login{
+    height: 25px;
+    margin-top: 18px;
+    width: 100%;
+}
+
+.exit-img{
+    height: 31px;
+    margin-left: 0px;
+    margin-right: 6px;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 1300px){
+    .post{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+
+@media only screen and (max-width: 1263px){
+    .post{
+        margin: 15px;
+        width: 95%;
+    }
+    .post-li{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .header{
+        background-position: 50% 30%;
+        background-size: cover;
+    }
+    .busca {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .header{
+        background-position: 50% 40%;
+        background-size: cover;
+        height: 300px;
+    }
+    .header-img{
+        height: 300px;
+    }
+    .artigos{
+        display: none;
+    }
+
+    /*.post-text h4{ TERMINAR */
+        /*margin: 0;*/
+        /*font-family: "KievitPro";*/
+        /*word-wrap: break-word;*/
+        /*overflow: hidden;*/
+        /*height: auto;*/
+    /*}*/
+}
+
+@media only screen and (max-width: 400px){
+    .navbar-brand-text{
+        display: none;
+    }
+    .header{
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 200px;
+    }
+    .header-img{
+        height: 195px;
+    }
+    .videos{
+        display: none;
+    }
+    .sub-navbar-links{
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+
+    }
+    #sub-sub-navbar-hr{
+        display: none;
+    }
+}
